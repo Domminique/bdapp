@@ -95,7 +95,7 @@ sudo npm install pm2 -g
 
 <!-- Project in Action - [Jobify](https://www.jobify.live/) -->
 
-Find the App Useful? [You can always buy me a coffee](paypal:imbugad@gmail.com)
+Find the App Useful? [You can always buy me a coffee at payoneer:imbugad@gmail.com]()
 
 #### Run The App Locally
 
