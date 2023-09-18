@@ -78,8 +78,15 @@ Other weeks
 - Code Review
 - Deployment
 - Sprint Review
+ # Run RN Mobile app
 
-  # Configure GCP
+ The project is using Expo React native 
+
+ npm i
+
+ npm expo start
+
+  # Run API - Configure GCP
 
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -172,36 +179,6 @@ npm start
    - We will create a high-level architecture diagram illustrating the components and their interactions within the app.
    - The diagram will showcase the integration of MongoDB Atlas, Google Cloud products, and other relevant services or APIs used in the app.
 
-The City One Blood Donation Network app revolutionizes blood donation in Kenya by connecting donors and recipients seamlessly, ensuring that life-saving blood is always available when and where it is needed the most. Together with the Ministry of Health and St. John Ambulance Services, this app empowers communities to save lives and contribute to a healthier Kenya.
-
-1. **User-friendly Interface:** The app boasts an intuitive and user-friendly interface, ensuring easy navigation for both donors and recipients.
-
-2. **Donor Registration:** Individuals can register as blood donors, providing their information and medical history to help maintain a comprehensive donor database.
-
-3. **Real-time Donor Locator:** The app enables real-time tracking of available blood donors within a specified radius, ensuring timely access to life-saving blood supplies.
-
-4. **Appointment Scheduling:** Donors can schedule blood donation appointments at their convenience, reducing waiting times and ensuring a steady supply of blood.
-
-5. **Emergency Requests:** Hospitals and medical facilities can send emergency blood requests directly through the app, instantly notifying nearby donors who match the required blood type.
-
-6. **Blood Type Compatibility:** The app checks donor blood types against recipient requirements, ensuring safe and accurate blood transfusions.
-
-7. **Health Records:** Donors can maintain their health records, allowing for easy monitoring and notifications for future donations.
-
-8. **Notifications:** Users receive timely reminders for upcoming appointments, eligibility to donate, and critical updates on blood shortages or emergencies.
-
-9. **Community Engagement:** The app encourages community engagement through gamification, challenges, and events to motivate regular blood donations.
-
-10. **Information Hub:** It provides educational content about the importance of blood donation, guidelines, and FAQs to dispel myths and misconceptions.
-
-11. **Feedback and Rating:** Users can rate their donation experience, helping to improve services and enhance transparency.
-
-12. **Analytics and Reporting:** The Ministry of Health can access comprehensive analytics and reports to make informed decisions, optimize blood donation campaigns, and allocate resources effectively.
-
-13. **Privacy and Security:** Robust security measures are in place to protect user data and maintain confidentiality.
-
-
-   
 
 
 
@@ -209,35 +186,35 @@ The City One Blood Donation Network app revolutionizes blood donation in Kenya b
 
 ### Brief description: City One Blood Donation Network app - (**city one** is a division in St.John Ambulance, Nairobi Region, Kemya)
 
-An e-commerce platform that enables African farmers, artisans and creators to sell products online. 
+An health care platform that enables African blood donors, hospitals and health workers to sell products online. 
 
 ### List a few main features:
 
-- Buyers can search for and match farmers based on location langauge, skills, goals, and country
+- Hospitals can search for and match blood donors based on location langauge, skills, goals, and country
 - Pricing will be individualised based on organizations preference and demand , it will be free for not-for-profit and charity orgarnisations
 - Strong social media interration with reviews, posts and analytics
 - Managers can upload farmer and buyers in pdf, json or excell data formats
 
 ### List roles of typical users:
 
-a. Farm Manager
-b. farmer
-c. Mentee
+a. Hospital Manager
+b. Blood Donor
+c. Blood in_need 
 
 ## 2a. Writing user personas
 
-Ibrahim is a busy working project Manager who wants to access chapchap logistics and make sure that he can see all e-logistics activities of his Program. He also uses chapchap logistics to see engagement reports, detailed meeting lists, graphics, custom reports. He also uses the mobile app to automate meeting and calls with farmers and buyers. Ibrahim wants to save time and money, and he wants a farmers Management platform that gives his time back.
+Ibrahim is a busy working paramedic who wants to access city one bdapp and make sure that he can see all blood donation activities of his Program. He also uses city one bdapp to see engagement reports, detailed meeting lists, graphics, custom reports. He also uses the mobile app to automate meeting and calls with blood donors and buyers. Ibrahim wants to save time and money, and he wants a blood donors Management platform that gives his time back.
 
 Dominic is a farmer and a busy start-up founder who wants to send direct messages or join video calls his buyers and to explore tools that will save him time and learn in the process . Dominic likes to perform all operations on her phone.
 
 ## 2b. Writing user stories
 
-Search for for farmers and buyers
+Search for for blood donors and buyers
 
-As a Farm Manager , I want to search for farmers and buyers of my e-logistics program , see engagement reports, detailed meeting lists, graphics, custom reports of all e-logistics activities.
+As a Hospital Manager , I want to search for blood donors and buyers of my blood donation program , see engagement reports, detailed meeting lists, graphics, custom reports of all blood donation activities.
 
 Check useful graphics
-As a farmer, I want to Check useful graphics to measure my e-logistics program.
+As a farmer, I want to Check useful graphics to measure my blood donation program.
 
 ## 3. Defining SLIs and SLOs
 
@@ -384,11 +361,11 @@ Med
 
 #### Service
 
-farmers Service
+blood donors Service
 
 #### Scenario
 
-farmers database crashes
+blood donors database crashes
 
 #### Recovery Point Objective
 
@@ -464,26 +441,3 @@ $574.71/month
 
 
 
-If I were a farmer in Kakamega County, I would grow the following crops to improve food security and make it a sustainable business that uses technology as an enabler while producing natural healthy food:
-
-Sweet potatoes: Sweet potatoes are a drought-resistant crop that can be grown in a variety of soil types. They are also a good source of vitamins and minerals, making them a healthy food choice. Sweet potatoes can be grown using drip irrigation, which can help to conserve water.
-Sweet potatoes cropOpens in a new window
-growfully.com
-Sweet potatoes crop
-Cassava: Cassava is another drought-resistant crop that can be grown in poor soil. It is also a good source of carbohydrates, making it a staple food for many people in Kenya. Cassava can be grown using intercropping, which is a method of planting different crops together. This can help to improve soil fertility and reduce the risk of pests and diseases.
-Cassava cropOpens in a new window
-croplife.org
-Cassava crop
-Avocados: Avocados are a high-value crop that can be grown in Kakamega County. They are also a good source of healthy fats and vitamins. Avocados can be grown using drip irrigation and fertigation, which is a method of applying nutrients to the soil through the irrigation system. This can help to improve the quality and yield of avocados.
-Avocados cropOpens in a new window
-www.greenlife.co.ke
-Avocados crop
-Sunflowers: Sunflowers are a relatively new crop in Kenya, but they have the potential to be a valuable cash crop. They are a good source of oil, which can be used for cooking or for making biodiesel. Sunflowers can be grown using drip irrigation and intercropping.
-Sunflowers cropOpens in a new window
-ucanr.edu
-Sunflowers crop
-I would use technology to help me to manage my farm more efficiently and sustainably. I would use a weather forecasting app to help me to plan my planting and harvesting schedules. I would also use a soil testing kit to help me to determine the nutrient levels in my soil. This information would help me to choose the right crops to grow and to apply the right amount of fertilizer.
-
-I would also use technology to market my products. I would create a website and social media accounts to promote my farm and my products. I would also use online platforms to connect with buyers.
-
-By growing sustainable crops and using technology to manage my farm, I would be able to improve food security in Kakamega County while also creating a profitable business. I would also be able to produce natural healthy food that is good for my customers and for the environment.
