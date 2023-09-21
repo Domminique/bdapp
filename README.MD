@@ -104,9 +104,9 @@ npm run install-dependencies
 ```
 
 - rename .env.temp to .env
-- setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME,PANGEA_EMBARGO_TOKEN,PANGEA_DOMAIN
+- setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME,PANGEA_AUTHN_TOKEN, PANGEA_EMBARGO_TOKEN,PANGEA_DOMAIN
 
-- Set up environment variables (Instructions) PANGEA_EMBARGO_TOKEN and PANGEA_DOMAIN with your project token configured on Pangea User Console (token should have access to Embargo service Instructions) and with your pangea domain.
+- Set up environment variables (Instructions) PANGEA_AUTHN_TOKEN, PANGEA_EMBARGO_TOKEN and PANGEA_DOMAIN with your project token configured on Pangea User Console (token should have access to Embargo service Instructions) and with your pangea domain.
 
 ```sh
 npm start
